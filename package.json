@@ -1,8 +1,9 @@
 {
   "name": "number-to-words-az",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Convert numbers to words",
   "license": "MIT",
+  "repository": "https://github.com/pheianox/numbers-to-words-az",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -37,7 +38,7 @@
   "files": [
     "dist"
   ],
-  "keywords": [],
+  "keywords": ["numbers", "words", "az"],
   "main": "./dist/main.cjs.js",
   "module": "./dist/main.es.js",
   "exports": {

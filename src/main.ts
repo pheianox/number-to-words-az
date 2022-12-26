@@ -13,6 +13,7 @@ const C = ["min", "milyon", "milyard", "trilyon", "katrilyon",
     
 // 10^66
 const MAX_NUMBER_LENGTH = C.length * 3 + 3
+const NUMBER_TOO_BİG_MSG = "çox boyük bir nömrə"
 
 function readNumber(input: string): any {
     const stream = input.replace(/\D/g, '').replace(/(^00+)|(^0+(?=\d))/g, '')
@@ -51,7 +52,7 @@ function readNumber(input: string): any {
             `${tailValue}`
     }
 
-    return 'çox boyük bir rəqəm'
+    return NUMBER_TOO_BİG_MSG
 }
 
 export default {
