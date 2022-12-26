@@ -1,6 +1,6 @@
 {
   "name": "number-to-words-az",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Convert numbers to words",
   "license": "MIT",
   "repository": "https://github.com/pheianox/numbers-to-words-az",
@@ -43,7 +43,7 @@
   "module": "./dist/main.es.js",
   "exports": {
     ".": {
-      "import": "./dist/main.ejs.js",
+      "import": "./dist/main.es.js",
       "require": "./dist/main.cjs.js"
     }
   },
