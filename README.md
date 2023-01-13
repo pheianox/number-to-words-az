@@ -19,7 +19,7 @@ numberToWordsAz.readNumber('4 934') // dörd min doqquz yüz otuz dörd
 numberToWordsAz.readNumber('1 030 485') // bir milyon otuz min dörd yüz səksən beş
 
 // get the max digit count it can process
-numberToWordsAz.MAX_NUMBER_LENGTH // -> 66 (vigintilyon)
+numberToWordsAz.MAX_NUMBER_LENGTH // 66 (vigintilyon)
 ```
 
 ### Big numbers
